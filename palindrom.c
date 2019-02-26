@@ -4,7 +4,7 @@ int main()
     int n, reversed = 0, rem, originalInteger;
     printf("Enter an integer: ");
     scanf("%d", &n);
-    if (n>1000)
+    if (n>=1000)
     {
         printf("no can't calculate");
     }
